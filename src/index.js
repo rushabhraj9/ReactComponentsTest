@@ -1,15 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { List } from "./List";
-import Heading from "./Heading.jsx";
+import App from "./components/App.jsx";
+
 const date = new Date();
 
 const hours = date.getHours();
 
 ReactDOM.render(
   <div>
-    <Heading />
-    <List />
+    <App />
   </div>,
   document.getElementById("root")
 );
